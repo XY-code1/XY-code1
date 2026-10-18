@@ -45,7 +45,7 @@ Agent基盤、ランタイムの信頼性、ソフトウェア・サプライチ
 ## GitHubアクティビティ
 
 <p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XY-code1&theme=github_dark" alt="XY-code1 GitHubアクティビティ" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XY-code1&theme=github" alt="XY-code1 GitHubアクティビティ" />
 </p>
 
 <div align="center">

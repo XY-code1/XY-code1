@@ -45,7 +45,7 @@
 ## GitHub 活跃度
 
 <p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XY-code1&theme=github_dark" alt="XY-code1 GitHub 活跃度" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XY-code1&theme=github" alt="XY-code1 GitHub 活跃度" />
 </p>
 
 <div align="center">

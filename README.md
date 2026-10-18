@@ -44,7 +44,7 @@ Contributing to agent infrastructure, runtime reliability, and software supply-c
 ## GitHub Activity
 
 <p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XY-code1&theme=github_dark" alt="XY-code1 contribution activity" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XY-code1&theme=github" alt="XY-code1 contribution activity" />
 </p>
 
 <div align="center">
