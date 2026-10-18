@@ -28,7 +28,7 @@
 ## 精选项目
 
 <a href="https://github.com/XY-code1/plan-guardian">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=XY-code1&repo=plan-guardian&theme=transparent&hide_border=true" alt="Schedule Guardian" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=XY-code1&repo=plan-guardian&v=2&theme=transparent&hide_border=true" alt="Schedule Guardian" />
 </a>
 <a href="https://github.com/XY-code1/accessible-beauty-ai">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=XY-code1&repo=accessible-beauty-ai&theme=transparent&hide_border=true" alt="Accessible Beauty AI" />
