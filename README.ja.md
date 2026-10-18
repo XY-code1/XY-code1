@@ -1,110 +1,55 @@
 <div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:111827,50:4F46E5,100:06B6D4&text=XY&fontColor=FFFFFF&fontSize=58&fontAlignY=38&desc=AI%20Applications%20%C2%B7%20Agents%20%C2%B7%20Security&descAlignY=60&descSize=19" alt="XY プロフィールバナー" />
+
 [English](README.md) · [简体中文](README.zh-CN.md) · [**日本語**](README.ja.md)
 
-# Hi, I'm XY 👋
+### AIアプリケーション開発者 · Agentワークフロー探究者
 
-### AI Application Builder · Agent Workflow Explorer · Cybersecurity Researcher
+**行動・検証・復旧**できるAIアプリケーションを開発し、<br />
+Agent、人間による制御、信頼できる実行に注力しています。
 
-AIを「答えるだけ」から、**行動し、検証し、復旧できる**アプリケーションへ。
-
-[![GitHub](https://img.shields.io/badge/GitHub-XY--code1-181717?style=flat-square&logo=github)](https://github.com/XY-code1)
-[![Email](https://img.shields.io/badge/Email-xyuzzz123456%40gmail.com-4A90E2?style=flat-square&logo=gmail&logoColor=white)](mailto:xyuzzz123456@gmail.com)
-[![Xiaohongshu](https://img.shields.io/badge/Xiaohongshu-@XY-FF2442?style=flat-square&logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/user/profile/6a63c2420000000013031400)
+[![GitHub](https://img.shields.io/badge/GitHub-XY--code1-181717?style=for-the-badge&logo=github)](https://github.com/XY-code1)
+[![Email](https://img.shields.io/badge/Email-Contact-4A90E2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xyuzzz123456@gmail.com)
+[![Xiaohongshu](https://img.shields.io/badge/Xiaohongshu-XY-FF2442?style=for-the-badge&logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/user/profile/6a63c2420000000013031400)
 
 </div>
 
----
+## 注力分野
 
-## About Me
+`AI Agents` · `LLM Applications` · `RAG` · `Human-in-the-loop` · `AI Security`
 
-私は **独立系AI開発者** として、**AIアプリケーション開発、LLM、AI Agents、RAG**、そして **AIセキュリティ研究** に取り組んでいます。
+## 技術スタック
 
-曖昧なアイデアを、入力の理解、行動計画、人間による制御、変更の実行、実状態に基づく結果検証という、動作するプロダクトフローへ落とし込むことが好きです。Hackathonやオープンソース活動を通じて、学びを目に見える再利用可能な成果へ変えています。
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,vite,java,c,rust,git,github&perline=10" alt="技術スタック" />
+</p>
 
-- 🔭 信頼性・説明可能性・検証可能性を備えたAI Agentアプリを開発
-- 🧠 LLM / RAG / Agent workflow / AIセキュリティを深く探究
-- 🌱 Rustを学びながら、フロントエンドとソフトウェア工学の基礎を強化
-- 🤝 AIアプリ、開発者ツール、UX関連のOSSへの貢献に関心
+## 注目プロジェクト
 
-## Tech & Tools
+<a href="https://github.com/XY-code1/plan-guardian">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=XY-code1&repo=plan-guardian&theme=transparent&hide_border=true" alt="Schedule Guardian" />
+</a>
+<a href="https://github.com/XY-code1/accessible-beauty-ai">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=XY-code1&repo=accessible-beauty-ai&theme=transparent&hide_border=true" alt="Accessible Beauty AI" />
+</a>
 
-> キーワードの数ではなく、実際の経験レベルに基づいて分類しています。
+- **[Schedule Guardian](https://github.com/XY-code1/plan-guardian)** — スケジュール競合を扱い、人間の承認と結果検証を備えたAgent。
+- **[Accessible Beauty AI](https://github.com/XY-code1/accessible-beauty-ai)** — メイク練習をリアルタイムで支援するアクセシブルなAIアシスタント。
+- **[LvLing Travel Agent](https://github.com/XY-code1/LvLing-Travel-Agent)** — AI旅行エージェントとデジタルヒューマンのプラットフォーム。
 
-| 分野 | 技術・ツール |
-| --- | --- |
-| **主要言語** | Python |
-| **アプリ開発** | React · Vite · TypeScript / JavaScript |
-| **プログラミング基礎** | Java · C |
-| **学習中** | Rust |
-| **AI** | LLM Applications · AI Agents · RAG · Human-in-the-loop · AI Security |
-| **開発ワークフロー** | Git · GitHub · Pull Requests · CI |
+## オープンソース
 
-## Featured Work
+Agent基盤、ランタイムの信頼性、ソフトウェア・サプライチェーンの安全性を中心に、**DeerFlow**、**OpenSSF Scorecard**、**TencentDB Agent Memory**、**BrowserSkill** などへ貢献しています。
 
-### 🛡️ [Schedule Guardian / Plan Guardian](https://github.com/XY-code1/plan-guardian)
+## GitHubアクティビティ
 
-スケジュール競合を扱う **Human-in-the-loop Agent**。自然言語の予定変更依頼を理解し、時間の競合を検出して実行可能な候補を提示します。明示的な承認後にのみ変更を実行し、書き込み後に状態を再読込して結果を検証します。
-
-`conflict detection` → `plan` → `approve / reject` → `execute` → `reread & verify`
-
-**重視する点：** 承認境界、planとversionの紐付け、fail-closed、拒否時に書き込まないこと、実行後の検証。
-
----
-
-### 🎵 AI Co-Screen Assistant / In-Sync Live
-
-Tencent Music Hackathonで開発した、音楽の興味マッチング、AIによる会話のきっかけ作り、没入型ソーシャルUIを組み合わせたプロジェクトです。共通の音楽嗜好を自然な交流の出発点にします。
-
-**Keywords:** `music-interest matching` · `AI icebreaking` · `immersive social UI`
-
-> リポジトリは非公開のため、リンクは掲載していません。
-
-## Open Source
-
-Agent基盤、ランタイムの信頼性、オープンソース・サプライチェーンの安全性を中心に貢献しています。以下はGitHubで公開確認できる代表的な実績で、マージ済みとレビュー中を明確に区別しています。
-
-### 🦌 [ByteDance DeerFlow · PR #6894](https://github.com/bytedance/deer-flow/pull/6894) · **Merged**
-
-run eventのタイムスタンプをSQLiteへ保存した際にタイムゾーンoffsetが失われる不具合を修正。3つのDB書き込み経路すべてでUTCへ正規化し、往復後も同一時刻を保持することを実SQLiteの回帰テストで確認しました。
-
-`Python` · `SQLite` · `runtime persistence` · `timezone correctness`
-
-### 🛡️ [OpenSSF Scorecard · PR #5339](https://github.com/ossf/scorecard/pull/5339) · **Open**
-
-GitLab Code-Review分析が、順序保証のないcommit一覧の先頭を検索時間境界に使う問題を修正。commit順序と既存互換性を保ったまま、最新の有効なcommit日時を計算します。
-
-`Go` · `GitLab API` · `open-source security` · `regression tests`
-
-### 🧠 [TencentDB Agent Memory · PR #1717](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1717) · **Open**
-
-L2 memory extractionの失敗が「データなしの成功」として扱われる問題を修正。正当なゼロ件処理を維持しながら、構造化された失敗をworkerの既存retry経路へ伝播させます。
-
-`TypeScript` · `AI memory pipeline` · `failure propagation` · `retry semantics`
-
-### 🔎 [Tencent BrowserSkill · PR #457](https://github.com/Tencent/BrowserSkill/pull/457) · **Open**
-
-[Issue #386](https://github.com/Tencent/BrowserSkill/issues/386) に対応し、session idleの可観測性を改善。推定残りidle時間と構造化されたtimeout reasonを公開し、原因不明の状態消失に見えていたsession回収を診断可能にします。
-
-`Rust` · `browser automation` · `session lifecycle` · `observability`
-
-## What I Care About
-
-```text
-Useful AI      > impressive demos only
-Verified state > optimistic success messages
-Human control  > silent automation
-Clear evidence > vague claims
-```
-
-## Let's Connect
-
-- GitHub: [@XY-code1](https://github.com/XY-code1)
-- Email: [xyuzzz123456@gmail.com](mailto:xyuzzz123456@gmail.com)
-- Xiaohongshu: [プロフィール](https://www.xiaohongshu.com/user/profile/6a63c2420000000013031400)
+<p align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XY-code1&theme=github_dark" alt="XY-code1 GitHubアクティビティ" />
+</p>
 
 <div align="center">
 
-_Keep building. Keep verifying. Stay curious._
+**役に立つAIをつくる。人間の制御を守る。結果を検証する。**
 
 </div>
