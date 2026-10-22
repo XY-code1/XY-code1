@@ -6,7 +6,7 @@
 
 ### AI Application Builder · Agent Workflow Explorer
 
-I build AI applications that **act, verify, and recover**—<br />`nwith a focus on agents, human control, and reliable execution.
+I build AI applications that **act, verify, and recover**—<br />with a focus on agents, human control, and reliable execution.
 
 [![GitHub](https://img.shields.io/badge/GitHub-XY--code1-181717?style=for-the-badge&logo=github)](https://github.com/XY-code1)
 [![Email](https://img.shields.io/badge/Email-Contact-4A90E2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xyuzzz123456@gmail.com)
@@ -37,9 +37,12 @@ I build AI applications that **act, verify, and recover**—<br />`nwith a focus
 - **[Accessible Beauty AI](https://github.com/XY-code1/accessible-beauty-ai)** — Real-time, accessible AI guidance for makeup practice.
 - **[LvLing Travel Agent](https://github.com/XY-code1/LvLing-Travel-Agent)** — An AI travel agent and digital-human platform.
 
-## Open Source
+## Open Source Contributions / 开源贡献
 
-Contributing to agent infrastructure, runtime reliability, and software supply-chain security across **DeerFlow**, **OpenSSF Scorecard**, **TencentDB Agent Memory**, and **BrowserSkill**.
+**[morluto/rea](https://github.com/morluto/rea) · Contributor**<br />
+Merged [PR #5019 — `test(update): isolate CLI subprocess deadlines`](https://github.com/morluto/rea/pull/5019), addressing intermittent Windows CLI-test timeouts tracked in [Issue #4989](https://github.com/morluto/rea/issues/4989). The change split two real CLI subprocess checks—`update` help visibility and rejection of the removed `upgrade` command—into independent Vitest lifecycles, improving CI isolation and failure diagnostics without changing runtime behavior.
+
+Also contributing to agent infrastructure, runtime reliability, and software supply-chain security across **DeerFlow**, **OpenSSF Scorecard**, **TencentDB Agent Memory**, and **BrowserSkill**.
 
 ## GitHub Activity
 
