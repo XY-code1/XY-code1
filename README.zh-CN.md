@@ -40,7 +40,17 @@
 
 ## 开源贡献
 
-围绕 Agent 基础设施、运行时可靠性和软件供应链安全，为 **DeerFlow**、**OpenSSF Scorecard**、**TencentDB Agent Memory** 与 **BrowserSkill** 等项目贡献代码。
+### 近期已合并
+
+- **[Tencent/teamai-cli](https://github.com/Tencent/teamai-cli)** — 通过安全退役仓库替换前的侧工作树（[#1327](https://github.com/Tencent/teamai-cli/pull/1327)）、简化归档写入锁（[#1375](https://github.com/Tencent/teamai-cli/pull/1375)）以及串行化工作流归档发布（[#1382](https://github.com/Tencent/teamai-cli/pull/1382)），提升会话归档可靠性。
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)** — 在回退到 GBK 前拒绝无效 UTF-8，修复 CSV/TSV 预览的编码识别（[#4479](https://github.com/Tencent/WeKnora/pull/4479)）。
+- **[morluto/rea](https://github.com/morluto/rea)** — 在生成的 Evidence 中保留浏览器 Bundle 的有效来源域范围（[#4413](https://github.com/morluto/rea/pull/4413)），并拆分真实 CLI 子进程的超时周期，改善 Windows 测试稳定性与故障诊断（[#5019](https://github.com/morluto/rea/pull/5019)）。
+- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — 修复 SQLite 持久化运行事件时间戳时的时区偏移保留问题（[#6894](https://github.com/bytedance/deer-flow/pull/6894)）。
+
+### 审查中
+
+- **[zalando-incubator/agentic-identity-broker](https://github.com/zalando-incubator/agentic-identity-broker)** — 为令牌交换增加独立且向后兼容的客户端断言 audience 配置（[#283](https://github.com/zalando-incubator/agentic-identity-broker/pull/283)）。
+- **[OpenSSF Scorecard](https://github.com/ossf/scorecard)** — 使用返回结果中的最新提交日期分析 GitLab 合并请求，同时保持原有结果顺序（[#5339](https://github.com/ossf/scorecard/pull/5339)）。
 
 ## GitHub 活跃度
 

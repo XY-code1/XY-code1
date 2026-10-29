@@ -39,10 +39,17 @@ I build AI applications that **act, verify, and recover**—<br />with a focus o
 
 ## Open Source Contributions / 开源贡献
 
-**[morluto/rea](https://github.com/morluto/rea) · Contributor**<br />
-Merged [PR #5019 — `test(update): isolate CLI subprocess deadlines`](https://github.com/morluto/rea/pull/5019), addressing intermittent Windows CLI-test timeouts tracked in [Issue #4989](https://github.com/morluto/rea/issues/4989). The change split two real CLI subprocess checks—`update` help visibility and rejection of the removed `upgrade` command—into independent Vitest lifecycles, improving CI isolation and failure diagnostics without changing runtime behavior.
+### Recent merged contributions
 
-Also contributing to agent infrastructure, runtime reliability, and software supply-chain security across **DeerFlow**, **OpenSSF Scorecard**, **TencentDB Agent Memory**, and **BrowserSkill**.
+- **[Tencent/teamai-cli](https://github.com/Tencent/teamai-cli)** — Improved session-archive reliability by safely retiring side worktrees before repository replacement ([#1327](https://github.com/Tencent/teamai-cli/pull/1327)), simplifying archive write locking ([#1375](https://github.com/Tencent/teamai-cli/pull/1375)), and serializing workflow archive publication ([#1382](https://github.com/Tencent/teamai-cli/pull/1382)).
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)** — Fixed CSV/TSV preview encoding detection by rejecting invalid UTF-8 before falling back to GBK ([#4479](https://github.com/Tencent/WeKnora/pull/4479)).
+- **[morluto/rea](https://github.com/morluto/rea)** — Preserved the effective browser-bundle origin scope in generated evidence ([#4413](https://github.com/morluto/rea/pull/4413)) and isolated real CLI subprocess deadlines for clearer, more reliable Windows test diagnostics ([#5019](https://github.com/morluto/rea/pull/5019)).
+- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — Preserved timezone offsets correctly when persisting run-event timestamps in SQLite ([#6894](https://github.com/bytedance/deer-flow/pull/6894)).
+
+### In review
+
+- **[zalando-incubator/agentic-identity-broker](https://github.com/zalando-incubator/agentic-identity-broker)** — Added a dedicated, backward-compatible client-assertion audience for token exchange ([#283](https://github.com/zalando-incubator/agentic-identity-broker/pull/283)).
+- **[OpenSSF Scorecard](https://github.com/ossf/scorecard)** — Updated GitLab merge-request analysis to use the latest returned commit date without reordering results ([#5339](https://github.com/ossf/scorecard/pull/5339)).
 
 ## GitHub Activity
 

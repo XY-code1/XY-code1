@@ -40,7 +40,17 @@ Agent、人間による制御、信頼できる実行に注力しています。
 
 ## オープンソース
 
-Agent基盤、ランタイムの信頼性、ソフトウェア・サプライチェーンの安全性を中心に、**DeerFlow**、**OpenSSF Scorecard**、**TencentDB Agent Memory**、**BrowserSkill** などへ貢献しています。
+### 最近マージされたコントリビューション
+
+- **[Tencent/teamai-cli](https://github.com/Tencent/teamai-cli)** — リポジトリ置換前のサイドワークツリーの安全な退役（[#1327](https://github.com/Tencent/teamai-cli/pull/1327)）、アーカイブ書き込みロックの簡素化（[#1375](https://github.com/Tencent/teamai-cli/pull/1375)）、ワークフローのアーカイブ公開の直列化（[#1382](https://github.com/Tencent/teamai-cli/pull/1382)）により、セッションアーカイブの信頼性を向上。
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)** — GBKへフォールバックする前に不正なUTF-8を拒否し、CSV/TSVプレビューの文字コード判定を修正（[#4479](https://github.com/Tencent/WeKnora/pull/4479)）。
+- **[morluto/rea](https://github.com/morluto/rea)** — 生成されたEvidenceにブラウザBundleの有効なオリジンスコープを保持（[#4413](https://github.com/morluto/rea/pull/4413)）し、実CLIサブプロセスのタイムアウトを分離してWindowsテストの安定性と診断性を改善（[#5019](https://github.com/morluto/rea/pull/5019)）。
+- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — SQLiteへ実行イベントのタイムスタンプを保存する際、タイムゾーンオフセットを正しく保持（[#6894](https://github.com/bytedance/deer-flow/pull/6894)）。
+
+### レビュー中
+
+- **[zalando-incubator/agentic-identity-broker](https://github.com/zalando-incubator/agentic-identity-broker)** — トークン交換向けに、後方互換性のあるクライアントアサーション専用audience設定を追加（[#283](https://github.com/zalando-incubator/agentic-identity-broker/pull/283)）。
+- **[OpenSSF Scorecard](https://github.com/ossf/scorecard)** — 結果順序を変更せず、返された最新コミット日時をGitLabマージリクエスト分析に使用（[#5339](https://github.com/ossf/scorecard/pull/5339)）。
 
 ## GitHubアクティビティ
 
