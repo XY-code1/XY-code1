@@ -27,10 +27,10 @@ I build AI applications that **act, verify, and recover**—<br />with a focus o
 ## Featured Projects
 
 <a href="https://github.com/XY-code1/Nexora">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=XY-code1&repo=Nexora&theme=transparent&hide_border=true" alt="NEXORA" />
+  <img width="49%" src="./assets/nexora-card.svg" alt="NEXORA — local-first personal intelligence platform" />
 </a>
 <a href="https://github.com/XY-code1/plan-guardian">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=XY-code1&repo=plan-guardian&v=2&theme=transparent&hide_border=true" alt="Schedule Guardian" />
+  <img width="49%" src="./assets/schedule-guardian-card.svg" alt="Schedule Guardian — verified human-in-the-loop scheduling agent" />
 </a>
 
 - **[NEXORA / 知序](https://github.com/XY-code1/Nexora)** — An open-source, local-first personal intelligence platform with confirmed memory, a private Markdown Vault, and permission-controlled MCP access.

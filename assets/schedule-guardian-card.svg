@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Schedule Guardian</title>
+  <desc id="desc">A human-in-the-loop agent for safe, conflict-aware and verified schedule changes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="0.55" stop-color="#18283a"/>
+      <stop offset="1" stop-color="#152b30"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="800" height="420" rx="30" fill="url(#bg)"/>
+  <circle cx="696" cy="78" r="118" fill="#60a5fa" opacity=".11" filter="url(#glow)"/>
+  <circle cx="714" cy="348" r="148" fill="#34d399" opacity=".11" filter="url(#glow)"/>
+  <rect x="1.5" y="1.5" width="797" height="417" rx="28.5" fill="none" stroke="#86efac" stroke-opacity=".25" stroke-width="3"/>
+
+  <g transform="translate(58 57)">
+    <rect width="72" height="72" rx="20" fill="url(#accent)"/>
+    <rect x="17" y="21" width="38" height="34" rx="7" fill="none" stroke="#0d1a23" stroke-width="5"/>
+    <path d="M17 32h38M27 16v11M45 16v11" fill="none" stroke="#0d1a23" stroke-width="5" stroke-linecap="round"/>
+    <path d="m27 44 6 6 12-13" fill="none" stroke="#0d1a23" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="154" y="91" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" font-weight="700">Schedule Guardian</text>
+  <text x="155" y="121" fill="#86efac" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600">Human-controlled scheduling agent</text>
+
+  <text x="58" y="194" fill="#dce9f5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">
+    <tspan x="58" dy="0">Plan changes safely—not silently.</tspan>
+    <tspan x="58" dy="39" fill="#a5b7c9" font-size="20">Conflict-aware proposals · Explicit approval</tspan>
+    <tspan x="58" dy="31" fill="#a5b7c9" font-size="20">Verified execution with recovery boundaries</tspan>
+  </text>
+
+  <g transform="translate(58 322)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">
+    <rect width="130" height="36" rx="18" fill="#60a5fa" fill-opacity=".14" stroke="#60a5fa" stroke-opacity=".55"/>
+    <text x="65" y="23" text-anchor="middle" fill="#a7d1ff">HUMAN-IN-LOOP</text>
+    <rect x="142" width="96" height="36" rx="18" fill="#34d399" fill-opacity=".14" stroke="#34d399" stroke-opacity=".55"/>
+    <text x="190" y="23" text-anchor="middle" fill="#86efac">VERIFIED</text>
+    <rect x="250" width="91" height="36" rx="18" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".20"/>
+    <text x="295.5" y="23" text-anchor="middle" fill="#dce9f5">AGENT</text>
+  </g>
+</svg>

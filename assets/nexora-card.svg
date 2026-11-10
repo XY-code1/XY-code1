@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">NEXORA — Personal Intelligence Platform</title>
+  <desc id="desc">Local-first personal intelligence with private memory and permission-controlled MCP access.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#10213c"/>
+      <stop offset="1" stop-color="#101532"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20d9e8"/>
+      <stop offset="1" stop-color="#936bff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect width="800" height="420" rx="30" fill="url(#bg)"/>
+  <circle cx="692" cy="72" r="118" fill="#20d9e8" opacity=".10" filter="url(#glow)"/>
+  <circle cx="736" cy="350" r="150" fill="#936bff" opacity=".12" filter="url(#glow)"/>
+  <rect x="1.5" y="1.5" width="797" height="417" rx="28.5" fill="none" stroke="#79eaf2" stroke-opacity=".28" stroke-width="3"/>
+
+  <g transform="translate(58 57)">
+    <rect width="72" height="72" rx="20" fill="url(#accent)"/>
+    <path d="M20 51V21h9l14 18V21h9v30h-9L29 33v18z" fill="#07111f"/>
+  </g>
+
+  <text x="154" y="91" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="1">NEXORA</text>
+  <text x="155" y="121" fill="#8eeef4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600">知序 · Personal Intelligence Platform</text>
+
+  <text x="58" y="194" fill="#d8e6f5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">
+    <tspan x="58" dy="0">Your intelligence. Your data. Your control.</tspan>
+    <tspan x="58" dy="39" fill="#9fb3c8" font-size="20">Confirmed memory · Private Markdown Vault</tspan>
+    <tspan x="58" dy="31" fill="#9fb3c8" font-size="20">Permission-controlled access for MCP clients</tspan>
+  </text>
+
+  <g transform="translate(58 322)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">
+    <rect width="112" height="36" rx="18" fill="#20d9e8" fill-opacity=".14" stroke="#20d9e8" stroke-opacity=".55"/>
+    <text x="56" y="23" text-anchor="middle" fill="#8eeef4">LOCAL-FIRST</text>
+    <rect x="124" width="71" height="36" rx="18" fill="#936bff" fill-opacity=".15" stroke="#a68bff" stroke-opacity=".55"/>
+    <text x="159.5" y="23" text-anchor="middle" fill="#c9bbff">MCP</text>
+    <rect x="207" width="122" height="36" rx="18" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".20"/>
+    <text x="268" y="23" text-anchor="middle" fill="#d8e6f5">PRIVACY-FIRST</text>
+  </g>
+</svg>
